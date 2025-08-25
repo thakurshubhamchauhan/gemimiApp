@@ -12,6 +12,9 @@ appp.post('/getResponse',async (req, res) => {
     console.log(req.body.question);
     
     const genAI = new GoogleGenerativeAI('AIzaSyBVFvBY-9F3HY0MNFSTMhVMwmUKm3z4i7Q');
+         
+    // const genAI = new GoogleGenerativeAI('AIzaSyBVFvBY-9F3HY0MNFSTMhVMwmUKm3z4i7Q');
+
     let model =  genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     
     // model.generateContent(req.body.question).then(result=>{

@@ -1,8 +1,8 @@
 {
     "varsion": 2,
     "name": "SHUBHAMAPI",
-    "builds": [7
-        {"src" : "appp.js", "use":"@vercel/node"}
+    "builds": [
+        { "src" : "appp.js", "use":"@vercel/node"}
     ],
     "routes": [
         {
